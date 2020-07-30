@@ -11,7 +11,7 @@ html, body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
+A {
   text-decoration: none;
 }
 
@@ -28,6 +28,34 @@ header {
 
 header img {
   width: 200px;
+}
+
+.nav-bar {
+  color: #fff;
+}
+
+.nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-menu-item {
+  margin: 0 5px;
+  padding: 10px 20px;
+}
+
+.nav-menu-item A {
+  color: #fff;
+}
+
+.nav-menu-item A:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.nav-menu-item A:active {
+  border-bottom: 1px solid #fff;
 }
 
 .search {
@@ -116,7 +144,7 @@ header img {
     width: 90vw;
     min-width: 350px;
   }
-  
+
   .cards {
     grid-template-columns: 1fr;
   }
