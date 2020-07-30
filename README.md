@@ -1,3 +1,20 @@
+This is a React project based off the Breaking Bad API
+https://breakingbadapi.com/documentation
+
+Can view Character info and episode info so far.
+
+This is a MPA ( multi page react app ). However it is still work in progress as Hooks to the pages have not been refreshing the state as each page is routed to.
+Need to manually refresh the page to get the content for that page.
+
+TODO: 
+    -Page refresh on page visit to refresh the state
+    -Search bars for each page need to be refreshed to query each useEffect
+    -Need to add a home page and a few other pages
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
