@@ -14,6 +14,8 @@ const Navigation = () => {
     // Hooks to Navigation Routes
     const routeResult = useRoutes(NavRoutes)
 
+    
+
     return (
         <div>
             <nav className='nav-bar'>
